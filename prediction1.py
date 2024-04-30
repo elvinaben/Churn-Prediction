@@ -55,7 +55,7 @@ def main():
         features = [CreditScore, Gender, Age, Tenure, Balance, NumOfProducts, 
                     HasCrCard, IsActiveMember, EstimatedSalary, Geography_France, 
                     Geography_Germany, Geography_Spain, Geography_Other]
-        result = make_prediction(features)
+        result = "churn" if make_prediction(features) == 1 else "not churn"
         st.success(f'{name} is predicted: {result}')
 
 def make_prediction(features):
