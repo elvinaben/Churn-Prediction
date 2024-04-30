@@ -9,8 +9,8 @@ def main():
 
     Unnamed: 0 = 0
     name = st.text_input("Name ")
-    id = st.text_input("ID ", 1, 999999) # Data di soal => min:3, max:165033
-    CustomerId = st.text_input("Customer ID", 10000000, 99999999) # cek lg! min:1.556570e+07, max:1.581569e+07
+    id = st.text_input("ID ") 
+    CustomerId = st.text_input("Customer ID") 
     CreditScore = st.number_input("Credit Score", 300, 1000) 
     
     Geography_Other = 0
