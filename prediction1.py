@@ -5,7 +5,7 @@ import numpy as np
 model = joblib.load('Xgboost_2.pkl')
 
 def main():
-    st.title('UTS Model Deployment - Churn Prediction 🏦')
+    st.title('Churn Prediction 🏦')
 
     Unnamed: 0 = 0
     name = st.text_input("Name ")
