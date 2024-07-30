@@ -1,1 +1,1 @@
-Streamlit Link : https://gk4bteo7ljeyshogkkxxvy.streamlit.app/
+Streamlit Link : https://churn-prediction-sroy6nej2rbvctgfsgaatc.streamlit.app/ 
